@@ -1,0 +1,30 @@
+.list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.list li img{
+    width: 30px;
+}
+
+.socialBtn i:hover{
+    background-color: yellow;
+}
+
+.card :hover{
+    background-color: purple;
+}
+
+.textcontent{
+    padding-top: 5px;
+    display: flex;
+    
+}
+
+#color{
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+}
