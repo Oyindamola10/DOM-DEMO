@@ -13,7 +13,7 @@
 }
 
 .card :hover{
-    background-color: purple;
+    background-color: orange;
 }
 
 .textcontent{
@@ -21,10 +21,166 @@
     display: flex;
     
 }
-
+#BTN{
+    font-size: 15px;
+    height: 30px;
+    border-radius: 2px;
+}
+.shift{
+    display: flex;
+    padding-top: 5px;
+}
 #color{
     background-color: orange;
-    border-radius: 8px;
+    border-radius: 2px;
     border: none;
     margin: 8px;
+    font-size: 10px;
+}
+#heart{
+    position: absolute;
+    left: 2px;
+    padding-left: 1250px;
+    text-decoration:none;
+
+}
+.fa-heart:hover{
+    background-color:#FCDBB9;
+    border-radius: 20px;
+    
+}
+
+#para{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+    margin: 5px;
+}
+.texts{
+    display: flex; 
+}
+
+.texts p{
+    font-size:15px ;
+    color: orange;
+    padding-top: 10px;
+    margin: 5px;
+    font-weight: lighter;
+    background-color: #FEF3E9;
+    width: 45px;
+    
+}
+
+#stock{
+    font-size: 12px;
+    color:gray;
+}
+
+#ship{
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.checked{
+    color: orange;
+}
+
+.ratings{
+    display: flex;
+    margin: 5px;
+
+}
+
+.ratings p{
+    padding-left: 10px;
+    position: fixed;
+    right: 2px;
+    padding-right: 410px;
+    
+}
+
+.blackView{
+    text-decoration: none;
+}
+
+a.blackView:hover{
+    text-decoration: underline;
+}
+
+.similar{
+    text-decoration: none;
+}
+a.similar:hover{
+    text-decoration: underline;
+}
+
+.verified{
+    text-decoration: none;
+}
+
+a.verified:hover{
+    text-decoration: underline;
+}
+
+.variation{
+  border:2px solid orange;
+  width: 48px;
+  text-align: center;
+  color: orange;
+}
+
+
+.cart{
+    display: flex;
+    border-radius: 5px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+
+    
+    
+}
+.cart i{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.cart p{
+    padding-left: 195px;
+    padding-top: 8px;
+    font-weight: bold;
+    justify-content: center;
+
+    
+    
+}
+
+.BTN2{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 550px;
+    border-radius: 5px;
+}
+
+a.BTN2:hover{
+    background-color:#E07E1B;
+}
+
+.buy2{
+    display: flex;
+}
+
+.buy2 h5{
+    font-size: 15px;
+}
+
+.buy2 p a{
+    text-decoration: none;
+    padding-left: 350px;
+}
+
+.buy2 a:hover{
+    text-decoration: underline;
+    color: #2694D6;
 }
